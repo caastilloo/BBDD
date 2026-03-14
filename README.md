@@ -1,4 +1,4 @@
-# 🚲 Urban Pedal — SQL Project (Unit 7 · RA4)
+# Urban Pedal — SQL Project (Unit 7 · RA4)
 
 Database project based on a bicycle retail chain called **Urban Pedal**. The script covers INSERT, DELETE, UPDATE and TRANSACTION operations on a relational schema including tables for customers, products, orders, staff, suppliers and stock.
 
@@ -19,7 +19,7 @@ The schema includes the following main tables:
 
 ---
 
-## 📋 Exercises
+## Exercises
 
 ### INSERT
 
@@ -69,7 +69,7 @@ Updates employee commissions based on units sold during 2024:
 | 250 or more | +0.2% |
 | Between 100 and 249 | +0.1% |
 
-> ⚠️ **Note:** The `Commission` column was defined as `DECIMAL(3,2)`, which did not allow storing increments of 0.002. It has been altered to `DECIMAL(10,4)` using a prior `ALTER TABLE` statement.
+> **Note:** The `Commission` column was defined as `DECIMAL(3,2)`, which did not allow storing increments of 0.002. It has been altered to `DECIMAL(10,4)` using a prior `ALTER TABLE` statement.
 
 ---
 
@@ -80,18 +80,18 @@ Inserts a line into `ORDER_DETAILS` and decreases the corresponding unit from `S
 - Product: Trek 820 - 2016
 - OrderID: 635 · Quantity: 1 · Discount: 10%
 
-> ⚠️ **Note:** The exercise sheet lists the product name as `Trek 820-216`, but the actual name in the database is `Trek 820 - 2016`.
+> **Note:** The exercise sheet lists the product name as `Trek 820-216`, but the actual name in the database is `Trek 820 - 2016`.
 
 #### 10. Supplier delivery → STOCK update
 Records a supplier delivery in `DETAILS_SUPPLIER` and adds the units to `STOCK` within a transaction:
 - Product: Trek 820 - 2016
 - OrderSupID: 41 · Quantity: 15 · PriceCost: €520
 
-> ⚠️ **Note:** The exercise sheet requested an INSERT, but the record already existed in the database with the same values, which caused a duplicate primary key error. An UPDATE was used instead.
+> **Note:** The exercise sheet requested an INSERT, but the record already existed in the database with the same values, which caused a duplicate primary key error. An UPDATE was used instead.
 
 ---
 
-## 🛠️ Technology
+## Technology
 
-- **SQL Server** (T-SQL)
+- **SQL Server**
 - **SQL Server Management Studio (SSMS)**
