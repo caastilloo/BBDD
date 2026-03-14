@@ -4,7 +4,7 @@ Database project based on a bicycle retail chain called **Urban Pedal**. The scr
 
 ---
 
-## 📐 Database Diagram
+## Database Diagram
 
 The schema includes the following main tables:
 
